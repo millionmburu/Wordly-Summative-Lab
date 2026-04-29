@@ -52,6 +52,9 @@ https://api.dictionaryapi.dev/
 
 ## Project Structure
 
+Live Demo:
+https://your-username.github.io/wordly-dictionary/
+
 <-------------------------------------------------------------------------------->
 
 ## Setup Instructions
