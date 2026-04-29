@@ -1,0 +1,126 @@
+body{
+    
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    /* Ocean Image as background*/
+     background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+    ),
+    url("https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1500&q=80");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    background-repeat: no-repeat;
+    
+}
+
+/*INPUT AREA*/
+input{
+    padding: 10px;
+    border: solid black 2px;
+    border-radius: 8px;
+    outline: none;
+}
+
+/*RESULTS AREA*/
+section.results .card{
+    color: black;
+    border-radius: 40px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    background: rgba(61, 59, 59, 0.9) !important;
+}
+
+/*BUTTONS AREA*/
+button {
+    transition: 0.2s ease-in-out;
+}
+
+#toggleTheme:hover{
+    transform:scale(1.05);
+    background-color: rgb(67, 156, 159);
+    color: black;
+}
+
+#searchForm button:hover{
+    transform:scale(1.05);
+    background-color: rgb(67, 156, 159);
+    color: black;
+}
+
+#saveWord {
+    transition: all 0.3s ease;
+}
+
+#saveWord:hover {
+    background-color: #ff9800 !important;
+    color: black !important;
+    transform: scale(1.05);
+}
+
+/*AUDIO AREA*/
+#audioBox {
+    margin-top: 10px;
+    color: black;
+    font-weight: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+/*FAVORITES AREA*/
+#favorites div{
+    background: rgba(255,255,255,0.9);
+    color: black;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 8px;
+
+}
+
+/*LOADING AREA*/
+#loading{
+    margin-top: 20px;
+}
+
+/*FORM AREA*/
+form{
+    align-items: center;
+}
+
+/*THEME AREA*/
+.dark-mode{
+        background-image: linear-gradient(
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+    ),
+    url("https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1500&q=80");
+
+    color: white;
+
+}
+
+.dark-mode header{
+    background: rgba(0, 0, 0, 0.7) !important;
+    color: white !important;
+}
+
+.dark-mode section.results .card {
+    background: rgba(30, 30, 30, 0.9) !important;
+    color: white;
+}
+
+.dark-mode #audioBox {
+    color: white;
+}
+
+.dark-mode #favorites div {
+    background: rgba(50, 50, 50, 0.9);
+    color: white;
+}
+
+.dark-mode footer {
+    background: rgba(0, 0, 0, 0.7);
+}
